@@ -10,7 +10,7 @@ using PustokProject.DAL;
 namespace PustokProject.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220608143017_TablesCreated")]
+    [Migration("20220609142427_TablesCreated")]
     partial class TablesCreated
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

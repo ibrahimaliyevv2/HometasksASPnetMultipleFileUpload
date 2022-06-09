@@ -1824,4 +1824,9 @@
     <None Include="wwwroot\manage\vendor\jquery\jquery.slim.min.js" />
     <None Include="wwwroot\manage\vendor\jquery\jquery.slim.min.map" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\uploads\books\" />
+    <Folder Include="wwwroot\uploads\sliders\" />
+  </ItemGroup>
 </Project>

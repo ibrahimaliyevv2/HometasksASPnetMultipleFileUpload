@@ -29,7 +29,7 @@ namespace PustokProject
 
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseSqlServer(@"Server=CAPR6;Database=Pustok;Trusted_Connection=TRUE");
+                options.UseSqlServer(@"Server=CAPR6;Database=PustokDbBest;Trusted_Connection=TRUE");
             });
         }
 
@@ -56,14 +56,18 @@ namespace PustokProject
 
             app.UseEndpoints(endpoints =>
             {
+
+                endpoints.MapControllerRoute(
+                  name: "default",
+                  pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+                  );
+
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
-                    );
+              
             });
         }
     }
