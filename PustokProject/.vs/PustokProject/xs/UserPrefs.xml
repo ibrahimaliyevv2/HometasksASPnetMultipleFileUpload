@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{062FDBB5-C339-40AD-963B-F23B90F4A878}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PustokProject/DAL/AppDbContext.cs">
+    <Files>
+      <File FileName="PustokProject/DAL/AppDbContext.cs" Line="11" Column="6" />
+      <File FileName="PustokProject/Views/Home/Index.cshtml" Line="15" Column="7" />
+      <File FileName="PustokProject/Models/Slider.cs" Line="17" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PustokProject" expanded="True">
+            <Node name="PustokProject" expanded="True">
+              <Node name="Areas" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.PustokProject PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
